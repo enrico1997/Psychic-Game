@@ -12,66 +12,63 @@
 <body>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-2">
-				<img src="assets/images/psychic.jpg">
-			</div>
 			<div class="col-md-10"
 				<div class="page-header">
   				<h1>Psychic Game <small>Predict the letter I chose...</small></h1>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-2">
+				<img src="assets/images/psychic.jpg" id="pyschicImg">
+			</div>
+			<div class="col-md-10">
 				<p>Can you read my mind? I have chosen a letter. Guess by entering any key from "a" to "z".</p>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-2">
+			<div class="col-md-3">
 				<h2>Wins:</h2>
-			</div>			
-			<div class="col-md-2">
-				<h2>Losses:</h2>
-			</div>			
-			<div class="col-md-4">
-				<h2>Guesses Remaining:</h2>
-			</div>			
-			<div class="col-md-4">
-				<h2>Letters Chosen:</h2>
-			</div>			
+			</div>		
+			<div class="col-md-3" id="wins">
+				0
+			</div>	
 			
-		</div>
-
+			<div class="col-md-3">
+				<h2>Losses:</h2>
+			</div>	
+			<div class="col-md-3" id="losses">
+				0
+			</div>
+		</div>	
+		
 		<div class="row">
-			<div class="col-md-2" id="wins">
-				0
-			</div>
-			<div class="col-md-2" id="losses">
-				0
-			</div>
-			<div class="col-md-4" id="guessesRemaining">
+			<div class="col-md-3">
+				<h2>Guesses Remaining:</h2>
+			</div>		
+			<div class="col-md-3" id="guessesRemaining">
 				5
+			</div>	
+			<div class="col-md-3">
+				<h2>Letters Chosen:</h2>
 			</div>
-			<div class="col-md-4" id="lettersChosen">
+			<div class="col-md-3" id="lettersChosen">
 				nothing yet
 			</div>
 		</div>
-	</div>
-
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>
 
 <!-- Footer -->
 <footer>
-
 <div id="footer">
   <div class="container">
     <p class="muted credit">Copyright &copy; 2017 Enrico Bernardo</p>
   </div>
 </div>
-	<div class="container">
+<!-- 	<div class="container">
 		<div class="col-md-1" id="computerAnswer">
-		</div>
+		</div> -->
  	</div>
 </footer>
 
